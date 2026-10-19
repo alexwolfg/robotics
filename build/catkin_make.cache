@@ -1,0 +1,2 @@
+simple_arm
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin/install -G Unix Makefiles
