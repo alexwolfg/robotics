@@ -200,7 +200,7 @@
         <visual name='hokuyo_visual'>
             <origin xyz="0 0 0" rpy=" 0 0 0"/> 
             <geometry>
-                <mesh filename="package://robotics/src/my_robot/meshes/hokuyo.dae"/>
+                <mesh filename="package://my_robot/meshes/hokuyo.dae"/>
             </geometry>
         </visual>
     </link>
