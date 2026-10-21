@@ -67,8 +67,10 @@
             <origin xyz="0 0 0" rpy=" 0 0 0"/>
             <geometry>
                 <box size=".4 .2 .1"/>
-                <material name="blue"/>
             </geometry>
+            <material name="">
+                <color rgba="0 0 0.8 1"/>
+            </material>
         </visual>
 
         <collision name='back_caster_collision'>
@@ -105,7 +107,7 @@
 
         <inertial>
             <mass value="5.0"/>
-            <origin xyz="0.0 0 0" rpy=" 0 1.5707 1.5707"/>
+            <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/>
             <inertia
                 ixx="0.1" ixy="0" ixz="0"
                 iyy="0.1" iyz="0" izz="0.1"
@@ -113,18 +115,20 @@
         </inertial>
 
         <collision name='left_wheel_collision'>
-            <origin xyz="0.0 0 0" rpy=" 0 1.5707 1.5707"/> 
+            <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/> 
             <geometry>
                 <cylinder length="0.05" radius="0.1"/>
             </geometry>
         </collision>
 
         <visual name='left_wheel_visual'>
-            <origin xyz="0.0 0 0" rpy=" 0 1.5707 1.5707"/> 
+            <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/> 
             <geometry>
                 <cylinder length="0.05" radius="0.1"/>
-                <material name="green"/>
             </geometry>
+            <material name="">
+                <color rgba="0 1 0 1"/>
+            </material>
         </visual>
     </link>
 
@@ -133,7 +137,7 @@
 
         <inertial>
             <mass value="5.0"/>
-            <origin xyz="0.0 0 0" rpy=" 0 1.5707 1.5707"/>
+            <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/>
             <inertia
                 ixx="0.1" ixy="0" ixz="0"
                 iyy="0.1" iyz="0" izz="0.1"
@@ -141,18 +145,20 @@
         </inertial>
 
         <collision name='right_wheel_collision'>
-            <origin xyz="0.0 0 0" rpy=" 0 1.5707 1.5707"/> 
+            <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/> 
             <geometry>
                 <cylinder length="0.05" radius="0.1"/>
             </geometry>
         </collision>
 
         <visual name='right_wheel_visual'>
-            <origin xyz="0.0 0 0" rpy=" 0 1.5707 1.5707"/> 
+            <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/> 
             <geometry>
                 <cylinder length="0.05" radius="0.1"/>
-                <material name="green"/>
             </geometry>
+            <material name="">
+                <color rgba="0 1 0 1"/>
+            </material>
         </visual>
     </link>
     <link name='camera'>
@@ -160,7 +166,7 @@
 
         <inertial>
             <mass value="0.1"/>
-            <origin xyz="0.0 0 0" rpy=" 0 0 0"/>
+            <origin xyz="0 0 0" rpy=" 0 0 0"/>
             <inertia
                 ixx="1e-6" ixy="0" ixz="0"
                 iyy="1e-6" iyz="0" izz="1e-6"
@@ -168,18 +174,20 @@
         </inertial>
 
         <collision name='camera_collision'>
-            <origin xyz="0.0 0 0" rpy=" 0 1.5707 1.5707"/> 
+            <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/> 
             <geometry>
                 <box size="0.05 0.05 0.05"/>
             </geometry>
         </collision>
 
         <visual name='camera_visual'>
-            <origin xyz="0.0 0 0" rpy=" 0 1.5707 1.5707"/> 
+            <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/> 
             <geometry>
                 <box size="0.05 0.05 0.05"/>
-                <material name="red"/>
             </geometry>
+            <material name="">
+                <color rgba="1 0 0 1"/>
+            </material>
         </visual>
     </link>
 
