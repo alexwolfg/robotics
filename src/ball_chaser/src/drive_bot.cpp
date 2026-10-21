@@ -26,9 +26,7 @@ bool handle_drive_request(ball_chaser::DriveToTarget::Request& req,
 
     ROS_INFO("Linear velocity: %f, Angular velocity: %f", req.linear_x, req.angular_z);
 
-    res.succes = true;
-
-    return true
+    return true;
 }
 int main(int argc, char** argv)
 {
