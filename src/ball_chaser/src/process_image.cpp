@@ -30,7 +30,7 @@ void process_image_callback(const sensor_msgs::Image img)
     // Depending on the white ball position, call the drive_bot function and pass velocities to it
     // Request a stop when there's no white ball seen by the camera
 
-    bool ball_detected = false
+    bool ball_detected = false;
 
     // Loop through each pixel in the image and check if its white bright
     for (int i = 0; i < img.height * img.step; i++) {
@@ -38,7 +38,7 @@ void process_image_callback(const sensor_msgs::Image img)
             ball_detected = true;
             // Now calculate the ball position
             //x position of the pixel
-            int x = (i % img.step ) / 3
+            int x = (i % img.step) / 3;
 
             if (x < img.width / 3) {
                 drive_robot(0.0f, 0.5f);
