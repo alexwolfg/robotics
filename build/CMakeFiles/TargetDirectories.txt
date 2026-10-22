@@ -51,6 +51,8 @@
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/install/local.dir
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/std_msgs_generate_messages_cpp.dir
+/home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/test.dir
+/home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/ball_chaser_generate_messages_eus.dir
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir
@@ -76,5 +78,4 @@
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/ball_chaser_genlisp.dir
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/install/strip.dir
 /home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/drive_bot.dir
-/home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-/home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/test.dir
+/home/ubuntu/catkin_ws/build/ball_chaser/CMakeFiles/process_image.dir
