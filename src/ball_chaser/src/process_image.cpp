@@ -33,8 +33,12 @@ void process_image_callback(const sensor_msgs::Image img)
     bool ball_detected = false;
 
     // Loop through each pixel in the image and check if its white bright
-    for (int i = 0; i < img.height * img.step; i++) {
-        if (img.data[i] == white_pixel) {
+    for (int i = 0; i < img.height * img.step; i += 3) {
+        int red = img.data[i];
+        int green = img.data[i+1];
+        int blue = img.data[i+2];
+
+        if (red == white_pixel && green == white_pixel && blue == white_pixel) {
             ball_detected = true;
             // Now calculate the ball position
             //x position of the pixel
