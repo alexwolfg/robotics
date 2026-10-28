@@ -1,2 +1,2 @@
-my_robot:pgm_map_creator
+my_robot:teleop_twist_keyboard
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles
