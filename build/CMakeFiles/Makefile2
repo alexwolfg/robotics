@@ -55,14 +55,12 @@ CMAKE_BINARY_DIR = /home/ubuntu/catkin_ws/build
 # The main recursive "all" target.
 all: gtest/all
 all: my_robot/all
-all: teleop_twist_keyboard/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: my_robot/preinstall
-preinstall: teleop_twist_keyboard/preinstall
 
 .PHONY : preinstall
 
@@ -74,7 +72,6 @@ clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: my_robot/clean
-clean: teleop_twist_keyboard/clean
 
 .PHONY : clean
 
@@ -152,24 +149,6 @@ my_robot/preinstall:
 my_robot/clean: my_robot/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : my_robot/clean
-
-#=============================================================================
-# Directory level rules for directory teleop_twist_keyboard
-
-# Recursive "all" directory target.
-teleop_twist_keyboard/all:
-
-.PHONY : teleop_twist_keyboard/all
-
-# Recursive "preinstall" directory target.
-teleop_twist_keyboard/preinstall:
-
-.PHONY : teleop_twist_keyboard/preinstall
-
-# Recursive "clean" directory target.
-teleop_twist_keyboard/clean:
-
-.PHONY : teleop_twist_keyboard/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir

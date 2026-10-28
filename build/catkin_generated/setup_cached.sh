@@ -7,4 +7,6 @@
 # new environment variables
 
 # modified environment variables
+export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/lib64'
+export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
 export PWD='/home/ubuntu/catkin_ws/build'
